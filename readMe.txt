@@ -3,6 +3,7 @@ unzip the file into a folder.
 open command prompt or terminal from the project directory
 
 Technique:  Arnold Transform --> 2L dwt --> dct --> embed --> inverse dct --> inverse dwt 
+Detailed expplanation is provided in Report.pdf
 
 Execution commands :
 
