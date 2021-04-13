@@ -6,7 +6,7 @@ Technique:  Arnold Transform --> 2L dwt --> dct --> embed --> inverse dct --> in
 
 Execution commands :
 
-python 17CS02003_Assignment_3.py
+python digitalWatermarking.py
 
 It gives three options to perform watermarking
 
