@@ -2,6 +2,8 @@ I'm attaching zip file of all essential documents.
 unzip the file into a folder.
 open command prompt or terminal from the project directory
 
+Technique:  Arnold Transform --> 2L dwt --> dct --> embed --> inverse dct --> inverse dwt 
+
 Execution commands :
 
 python 17CS02003_Assignment_3.py
