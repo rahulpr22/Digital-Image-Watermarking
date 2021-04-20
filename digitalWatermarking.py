@@ -240,17 +240,6 @@ def main(choice):
     print("\nPSNR -->",origVsStego,'\n')
     print("\nNC Index -->",NCIndex(cv2.imread('watermark.png'),cv2.imread('extractedWatermark.png')),'\n')
     
-def FrameCapture(path,folder):
-    vidObj = cv2.VideoCapture(path)
-    count = 0  
-    success = 1
-  
-    while count<30:
-        success, image = vidObj.read()
-        cv2.imwrite("/content/drive/My Drive/sflab4/%s/frame%d.jpg" % folder,count, image) 
-        count += 1
-    
-    video.release()
 
 if __name__ == "__main__":
     choice =int(input('\n1.No Attack\n2.saltNoise attck\n3.rotation attack\n\nChoice : '))
